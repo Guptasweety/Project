@@ -3,9 +3,7 @@
 
 from django_sorcery.db import databases
 
-# This is the connection to the SQLite database available through the
-# Flask-SQLAlchemy helper library. On this, find the `session` object,
-# to do most interactions (like committing, etc.)
+# This is the connection to the SQLite database
 
 
 db = databases.get("default")
