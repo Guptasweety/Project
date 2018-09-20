@@ -1,0 +1,192 @@
+/*--------------------------------*/
+/*Sitewide*/
+/*--------------------------------*/
+
+/*********************************************************/
+/* Styles for search, subset, and refresh input movie list page */
+
+/* Genre pulldown heading on movie list page */
+#genre_head { color: #6F1402;
+                font-size: 16px;
+                font-family: 'merriweather-sans', sans-serif;
+}
+
+ /*Genre selection list on movie list page */
+#genre         { color: #6F1402;
+                font-size: 16px;
+                font-family: 'merriweather-sans', sans-serif;
+}
+
+/* Title input search box on movie list page */
+#title_search { color: #C12C16;
+                font-size: 16px;
+                font-family: 'merriweather-sans', sans-serif;
+}
+
+/* Submit buttons on movie list page */
+.submit_button { color: #FFF0C9;
+                background: 6F1402;
+                font-size: 16px;
+                font-family: 'merriweather-sans', sans-serif;
+}
+
+
+/***************************************************/
+/* Styles for text for columns in movie list table */
+/* Movie title column on movie list page */
+.movie_title { color: #6F1402;
+                font-size: 16px;
+                font-family: 'merriweather-sans', sans-serif;
+
+}
+
+/* Release year column on movie list page */
+.release_year { color: #6F1402;
+                font-size: 14px;
+                font-family: 'merriweather-sans', sans-serif;
+
+}
+
+/* Map link column on movie list page */
+.map_link { color: #EE5C21;
+                font-size: 16px;
+                font-family: 'merriweather-sans', serif;
+}
+
+tbody a:hover { color: #6F1402;
+
+}
+
+/* IMDB link column on movie list page */
+.imdb_link { color: #EE5C21;
+                font-size: 16px;
+                font-family: 'merriweather-sans', serif;
+}
+
+/* Genres column for a movie on movie list page */
+.genres_for_a_movie { color: #6F1402;
+                font-size: 16px;
+                font-style: italic;
+                font-family: 'merriweather-sans', sans-serif;
+
+}
+
+/* Movie List page heading div */
+#list_header { height: 250px;
+                background-image: url("/static/images/scenefranciscoheader_crop.jpg");
+                width: 100%;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-color: #ccc;
+
+}
+
+/* Movie List page heading title paragraph */
+#list_page_head {
+    font-family: 'merriweather', sans-serif;
+    font-size: 75px;
+    font-weight: 900;
+    text-align: center;
+    color: #961E1E;
+
+    /* Sharper glow text-shadow effect used to outline page title */
+    /* I obtained the code to create this effect from Tom Elliot */
+    /* at http://www.webdevdoor.com/html-css/css3-text-glow-text-shadow/ */
+    text-shadow: 1px 0px 0px #FFF0C9, 1px 1px 0px #FFF0C9, 0px 1px 0px #FFF0C9,
+    -1px 1px 0px #FFF0C9, -1px 0px 0px #FFF0C9, -1px -1px 0px #FFF0C9,
+    0px -1px 0px #FFF0C9, 1px -1px 0px #FFF0C9, 1px 4px 5px #aeaeae;
+
+    width: 650px;
+    margin: 0.0% 32.0% 0.0% 32.0%;
+}
+
+/* Movie List page heading sub-title paragraph */
+#list_page_subhead {
+    font-family: 'merriweather', serif;
+    font-size: 37px;
+    font-weight: 900;
+    text-align: center;
+    color: #BF2517;
+
+    /* sharper glow */
+    text-shadow: 1px 0px 0px #FFF0C9, 1px 1px 0px #FFF0C9, 0px 1px 0px #FFF0C9,
+    -1px 1px 0px #FFF0C9, -1px 0px 0px #FFF0C9, -1px -1px 0px #FFF0C9,
+    0px -1px 0px #FFF0C9, 1px -1px 0px #FFF0C9, 1px 4px 5px #aeaeae;
+
+    width: 650px;
+    margin: 0.0% 32.0% 0.0% 32.0%;
+}
+
+/*****************************************/
+
+
+/**********************************************/
+/* Movie detail page text content styling     */
+
+.movie_detail_label { color: #6F1402;
+                font-size: 16px;
+                font-weight: bold;
+                font-family: 'merriweather-sans', sans-serif;
+}
+
+.movie_detail_content { color: #C12C16;
+                font-size: 16px;
+                font-family: 'merriweather-sans', sans-serif;
+}
+
+.container-fluid {
+    background-image: url("/static/images/sprinkles_@2x.png.png");
+    background-repeat: repeat;
+    padding-top: 3em;
+}
+
+.container {
+    background-image: url("/static/images/sprinkles_@2x.png");
+    background-repeat: repeat;
+}
+
+body {
+    background-image: url("/static/images/sprinkles_@2x.png");
+    background-repeat: repeat;
+}
+
+html {
+    background-image: url("/static/images/sprinkles_@2x.png");
+    background-repeat: repeat;
+    height: 100%;
+}
+
+/* Movie detail page heading styling     */
+
+/* Movie detail page heading movie title */
+#detail_page_title {
+    font: 35px Georgia, serif;
+    font-weight: bold;
+    color: #C12C16;
+}
+
+/* Movie detail page heading release year */
+#detail_page_release_year {
+    font: 25px Georgia, serif;
+    font-weight: normal;
+    color: #C12C16;
+}
+
+#poster_img {
+    margin: 0.25em;
+    height: 225px;
+    padding-right: 5.0em;
+}
+/*--------------------------------*/
+/*Maps*/
+/*--------------------------------*/
+
+#single-map {
+    width: 100%;
+    height: 760px;
+}
+
+.window-content {
+    color: #04162b;
+    width: 150px;
+}
